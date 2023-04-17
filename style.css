@@ -13,6 +13,42 @@
     position: relative;
 }
 
+.origin {
+    position: fixed;
+    top: 150px;
+    right: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#original {
+    position: fixed;
+    right: 27px;
+    top: 110px;
+    width: 34px;
+    transition: 0.5s;
+}
+
+.origin:hover h5 {
+    display: flex;
+    transition: 0.5s;
+}
+
+.origin h5 {
+    display: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#top {
+    width: 55px;
+    position: fixed;
+    right: 5px;
+    bottom: 85px;
+}
+
+
+
 /* HEADER *******************************************/
 header {
     width: 100%;
@@ -64,29 +100,37 @@ header {
     justify-content: space-between;
     width: 45px;
     height: 25px;
-    
+
 }
 
-.toggle-button .bar1, .bar2, .bar3 {
+.toggle-button .bar1,
+.bar2,
+.bar3 {
     height: 4px;
     width: 100%;
     background-color: white;
     border-radius: 10px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
+
 /*BOTÃO MENU ANIMAÇÃO ************************************/
-.openmenu .bar1{
+.openmenu .bar1 {
     transform: rotate(-45deg);
     position: absolute;
-    top: 10px; 
+    top: 10px;
+    transition: 0.5s;
 }
-.openmenu .bar3{
+
+.openmenu .bar3 {
     transform: rotate(45deg);
     position: absolute;
-    bottom: 10px; 
+    bottom: 10px;
+    transition: 0.5s;
 }
-.openmenu .bar2{
-    width: 0; 
+
+.openmenu .bar2 {
+    width: 0;
+    transition: 0.5s;
 }
 
 /* ABERTURA *******************************************/
@@ -240,7 +284,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(0, 0, 0);  
+    background-color: rgb(0, 0, 0);
 }
 
 .main-s1card {
@@ -253,7 +297,7 @@ header {
     background-color: black;
     padding-right: 40px;
     padding-left: 40px;
-    gap: 25px; 
+    gap: 25px;
 }
 
 .s1-card {
@@ -1036,7 +1080,7 @@ footer p {
         width: 100vw;
         padding-left: 0;
         padding-right: 0;
-        
+
         margin: 0;
     }
 
