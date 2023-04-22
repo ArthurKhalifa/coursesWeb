@@ -232,7 +232,6 @@ footer p {
         width: 70%;
     }
 
-
     /*HEADER ************************************/
     .righth {
         display: none;
@@ -279,18 +278,10 @@ footer p {
     .righth.active {
         display: flex;
     }
-
-    /*TABLET *******************************************/
-    .left-div-t {
-        width: 100%;
-    }
-
-
 }
 
 @media screen and (max-width: 700px) {
 
-    /*=====HEADER=====*/
     /*HEADER *****************************/
     header {
         width: 100vw;
@@ -354,5 +345,6 @@ footer p {
     footer p {
         justify-content: center;
     }
+
 
 }
