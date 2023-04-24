@@ -126,6 +126,10 @@ header {
     font-size: 50px;
 }
 
+.blue{
+    color: #0089FF;
+}
+
 .form {
     width: 50%;
     display: flex;
