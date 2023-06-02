@@ -17,7 +17,7 @@ menu.onclick = function () {
 
 Swal.fire({
     title: 'Atenção!',
-    text: "Este site NÃO é original. Todos os direitos estão reservados para a origem: https://www.traversymedia.com/",
+    text: "Este site NÃO é original. Todos os direitos estão reservados para a origem:(Original Site All rights reserved) https://www.traversymedia.com/",
     icon: 'warning',
     confirmButtonColor: '#3085d6',
     cancelButtonColor: '#d33',
